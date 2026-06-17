@@ -1,0 +1,14 @@
+{
+  "name": "industrial-hire.ai",
+  "title": "Industrial Hire — Specialist Equipment",
+  "description": "Specialist industrial equipment hire with AI-driven condition monitoring and predictive maintenance.",
+  "cluster": "INDUSTRY",
+  "servers": [
+        { "id": "industrial-mcp.sov3.meok.ai", "url": "https://industrial-mcp.sov3.meok.ai/", "protocol": "mcp-1.0" },
+    { "id": "monitoring-mcp.sov3.meok.ai", "url": "https://monitoring-mcp.sov3.meok.ai/", "protocol": "mcp-1.0" },
+    { "id": "maintenance-mcp.sov3.meok.ai", "url": "https://maintenance-mcp.sov3.meok.ai/", "protocol": "mcp-1.0" }
+  ],
+  "registrar": "https://mcp-registry.sov3.meok.ai/register",
+  "protocol": "https://openMCP.ai/protocol",
+  "$schema": "https://openMCP.ai/schemas/mcp-server-list.json"
+}

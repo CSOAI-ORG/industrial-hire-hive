@@ -1,0 +1,17 @@
+# Industrial Hire — Specialist Equipment
+
+Specialist industrial equipment hire with AI-driven condition monitoring and predictive maintenance.
+
+## Cluster
+INDUSTRY
+
+## MCP Servers
+industrial-mcp.sov3.meok.ai, monitoring-mcp.sov3.meok.ai, maintenance-mcp.sov3.meok.ai
+
+## Neighbour Hives
+planthire.ai, optimobile.ai, landlaw.ai, tree-king.ai, wcr-grab-hire.ai
+
+---
+
+Part of the MEOK Empire — INDUSTRY cluster.
+Keystone: https://meok.ai/

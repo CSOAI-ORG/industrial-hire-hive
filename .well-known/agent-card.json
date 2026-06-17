@@ -1,0 +1,35 @@
+{
+  "name": "industrial-hire.ai",
+  "title": "Industrial Hire — Specialist Equipment",
+  "description": "Specialist industrial equipment hire with AI-driven condition monitoring and predictive maintenance.",
+  "cluster": "INDUSTRY",
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "url": "https://industrial-hire.ai/",
+  "agent": {
+    "protocol": "model-context-protocol",
+    "version": "1.0",
+    "mcp_endpoint": "https://mcp.industrial-hire.ai/v1",
+    "capabilities": ["reasoning", "tool_use", "context_management", "multi_agent_coordination"],
+    "authentication": {
+      "scheme": "oauth2",
+      "token_url": "https://auth.sov3.meok.ai/oauth/token",
+      "authorization_url": "https://auth.sov3.meok.ai/oauth/authorize",
+      "scopes": ["agent:read", "agent:write", "mcp:invoke"]
+    },
+    "identity": {
+      "did": "did:meok:industrial-hire.ai",
+      "verification_method": "did:meok:industrial-hire.ai#keys-1"
+    }
+  },
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "MEOK Empire",
+    "url": "https://meok.ai/"
+  },
+  "clusterOf": {
+    "@type": "Organization",
+    "name": "INDUSTRY",
+    "url": "https://industrial-hire.ai/"
+  }
+}
